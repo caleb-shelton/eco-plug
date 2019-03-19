@@ -15,7 +15,7 @@ print('listening..')
 conn, addr = s.accept()
 print('connected')
 
-# Used for decoding twoscomplement data which is sent over networks
+# Used for decoding data in twos complement format which is sent over networks
 def twoscomplement_to_unsigned(i):
     return i % 256
 
