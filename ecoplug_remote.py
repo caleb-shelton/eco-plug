@@ -3,7 +3,6 @@ This program receives data over a network and if the string 's' is found it will
 to the Arduino through serial communication. This is for turning on and off EcoPlug
 """
 
-
 import serial
 from datetime import datetime
 import socket
