@@ -30,9 +30,9 @@ while True:
         message = data.decode('utf-8')
         print(message)
         if 's' in message:
-            print('next')
+            print('s found')
             ser1.write('s'.encode())
-            print('SENT')
+            print('sent to arduino')
     except:
         print('error')
         pass
