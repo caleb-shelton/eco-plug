@@ -10,7 +10,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('192.168.43.94', 1339))
 s.listen(1)
 
-# Accept's any devices trying to connect
+# Accepts any devices trying to connect
 print('listening..')
 conn, addr = s.accept()
 print('connected')
